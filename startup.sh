@@ -1,3 +1,2 @@
 #!/bin/sh
-java -jar receiverjar.jar
-java -jar senderjar.jar
+( java -jar receiverjar.jar ) & (java -jar senderjar.jar)
